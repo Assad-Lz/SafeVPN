@@ -1,11 +1,14 @@
 body {
     margin: 0;
-    /*Definido Padrões de Margin na Pagina*/
     padding: 0;
-
+}
+.container-fluid {
+    background-color: rgb(146, 227, 169);
+    font-family: 'Poppins', serif;
 }
 
-@media screen and (min-width: 901px) and (max-width: 1500px) {
+    
+
     .info-key svg {
         max-width: 40%;
         min-width: auto;
@@ -19,178 +22,20 @@ body {
     }
 
     .informations {
-        display: flex;
-        max-width: 30%;
-        height: auto;
         position: relative;
-        bottom: 300vh;
-        left: 180px;
+        bottom: 45vh;
+        left: 15vh;
         font-family: Arial, Helvetica, sans-serif;
     }
 
     .informations h1 {
         color: rgb(87, 90, 90);
-
-    }
-
-    .firt-but {
-        padding: 17px 40px;
-        border-radius: 50px;
-        cursor: pointer;
-        border: 0;
-        background-color: rgb(87, 90, 90);
-        box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-        font-size: 15px;
-        transition: all 0.5s ease;
-        width: 200px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    .firt-but:hover {
-        letter-spacing: 3px;
-        background-color: rgb(146, 227, 169);
-        color: hsl(0, 0%, 100%);
-        box-shadow: rgb(146, 227, 169) 0px 7px 29px 0px;
-    }
-
-    .firt-but:active {
-        letter-spacing: 3px;
-        background-color: rgb(146, 227, 169);
-        color: hsl(0, 0%, 100%);
-        box-shadow: rgb(146, 227, 169) 0px 0px 0px 0px;
-        transform: translateY(10px);
-        transition: 100ms;
-    }
-
-    .second-sec {
-        background: linear-gradient(rgb(146, 227, 169), rgb(70, 167, 97));
-        width: 100%;
-        height: 300px;
-        position: relative;
-        bottom: 120px;
-    }
-}
-
-@media screen and (min-width: 601px) and (max-width: 900px) {
-    .info-key svg {
-        max-width: 40%;
-        /*Definições da Imagem da Primeira sessão*/
-        min-width: auto;
-        height: auto;
-        position: relative;
-        left: 55%;
-        margin-top: 5%;
-        z-index: 0;
-        top: 0;
-        transition: top 0.3s ease;
-    }
-
-    .informations {
-        display: flex;
-        max-width: 30%;
-        height: auto;
-        position: relative;
-        bottom: 38vh;
-        left: 30vh;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .informations h1 {
-        color: rgb(87, 90, 90);
-        font-size: 32px;
+        font-size: 25px;
 
     }
 
     .informations p {
-        font-size: 18px;
-    }
-
-    .firt-but {
-        padding: 17px 40px;
-        border-radius: 50px;
-        cursor: pointer;
-        border: 0;
-        background-color: rgb(87, 90, 90);
-        box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-        font-size: 16px;
-        transition: all 0.5s ease;
-        width: 170px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    .firt-but:hover {
-        background-color: rgb(146, 227, 169);
-        color: hsl(0, 0%, 100%);
-        box-shadow: rgb(146, 227, 169) 0px 7px 29px 0px;
-        font-size: 11px;
-        width: 160px;
-        height: 30px;
-    }
-
-    .firt-but:active {
-        background-color: rgb(146, 227, 169);
-        color: hsl(0, 0%, 100%);
-        box-shadow: rgb(146, 227, 169) 0px 0px 0px 0px;
-        transform: translateY(10px);
-        transition: 100ms;
-        font-size: 11px;
-        width: 160px;
-        height: 30px;
-    }
-
-    .second-sec {
-        background: linear-gradient(rgb(146, 227, 169), rgb(70, 167, 97));
-        width: 100%;
-        height: 300px;
-        position: relative;
-        bottom: 120px;
-    }
-}
-
-@media screen and (min-width: 901px) {
-    .info-key svg {
-        max-width: 40%;
-        /*Definições da Imagem da Primeira sessão*/
-        min-width: auto;
-        height: auto;
-        position: relative;
-        left: 55%;
-        margin-top: 5%;
-        z-index: 0;
-        top: 0;
-        transition: top 0.3s ease;
-    }
-
-    .informations {
-        display: flex;
-        max-width: 30%;
-        height: auto;
-        position: relative;
-        bottom: 37vh;
-        left: 27vh;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .informations h1 {
-        color: rgb(87, 90, 90);
-        font-size: 33px;
-
-    }
-
-    .informations p {
-        font-size: 19px;
+        font-size: 12px;
     }
 
     .firt-but {
@@ -205,7 +50,7 @@ body {
         font-size: 12px;
         transition: all 0.5s ease;
         width: 170px;
-        height: 30px;
+        height: 25px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -216,9 +61,6 @@ body {
         background-color: rgb(146, 227, 169);
         color: hsl(0, 0%, 100%);
         box-shadow: rgb(146, 227, 169) 0px 7px 29px 0px;
-        font-size: 12px;
-        width: 170px;
-        height: 30px;
     }
 
     .firt-but:active {
@@ -227,9 +69,6 @@ body {
         box-shadow: rgb(146, 227, 169) 0px 0px 0px 0px;
         transform: translateY(10px);
         transition: 100ms;
-        font-size: 12px;
-        width: 170px;
-        height: 30px;
     }
 
     .second-sec {
@@ -237,6 +76,5 @@ body {
         width: 100%;
         height: 300px;
         position: relative;
-        bottom: 120px;
+        bottom: 100px;
     }
-}
