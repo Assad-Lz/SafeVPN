@@ -297,3 +297,126 @@ html {
   transition: 0.4s;
   transform: translateX(-56px);
 }
+
+.social-media-content-box {
+  height: 200px;
+  width: 15%;
+  position: relative;
+  top: 63px;
+  left: 30px;
+  border-radius: 15px;
+}
+
+
+
+.text-lgpd-section {
+  background-color: rgba(82, 76, 76, 0.11);
+  border: 1px solid rgba(112, 112, 112, 0.164);
+  -webkit-backdrop-filter: blur(20px);
+  width: 800px;
+  height: auto;
+  position: relative;
+  left: 320px;
+  bottom: 200px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 1px rgb(146, 227, 169);
+  border: 1px solid rgba(255, 255, 255, 0.454);
+  
+}
+
+.text-lgpd-section-content {
+  font-size: 18px;
+  margin: 15px;
+  font-weight: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.social-media-content-box-card-title {
+  color: #262626;
+  font-size: 1.5em;
+  line-height: normal;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.social-media-content-box-small-desc {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #452c2c;
+}
+
+.social-media-content-box-small-desc {
+  font-size: 1em;
+}
+
+.go-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background: linear-gradient(rgb(87, 90, 90), rgb(170, 170, 170));
+  border-radius: 0 4px 0 32px;
+}
+
+.go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: black;
+  font-family: courier, sans;
+}
+
+.social-media-content-box {
+  display: block;
+  position: relative;
+  max-width: 300px;
+  max-height: 320px;
+  background-color: #f2f8f9;
+  border-radius: 10px;
+  padding: 2em 1.2em;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  background: linear-gradient(rgb(87, 90, 90), rgb(170, 170, 170));
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.social-media-content-box:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: linear-gradient(rgb(146, 227, 169), rgb(70, 167, 97));
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.35s ease-out;
+}
+
+.social-media-content-box:hover:before {
+  transform: scale(28);
+}
+
+.social-media-content-box:hover .social-media-content-box-small-desc {
+  transition: all 0.5s ease-out;
+  color: black;
+}
+
+.csocial-media-content-box:hover .social-media-content-box-card-title {
+  transition: all 0.5s ease-out;
+  color: black;
+}
+
+
+
+
+
