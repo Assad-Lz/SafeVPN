@@ -416,7 +416,10 @@ html {
   color: black;
 }
 
-
+.container-text-lgpd {
+  position: relative;
+  bottom: 70px;
+}
 
 
 
