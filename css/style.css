@@ -447,3 +447,238 @@ footer {
   height: 225px;
   z-index: 0;
 }
+
+.container-text-lgpd-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 220px;
+  font-family: 'Poppins', sans-serif;
+  left: 10px;
+}
+
+.social-media-content-box-container {
+  position: relative;
+  left: 1093px;
+}
+
+.vpn-informations-card {
+  background-color: green;background: linear-gradient(rgb(146, 227, 169), rgb(70, 167, 97));position: relative;
+  bottom: 140rem;
+  width: 1310px;
+  height: 500px;
+  margin-left: 20px;
+  border-radius: 15px;
+  border: 1px rgb(87, 90, 90) solid;
+  margin-bottom: 35px;
+}
+
+.vpn-informations-card-content h2, h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10px;
+  color:rgb(87, 90, 90);
+}
+
+.vpn-informations-card-content h2 {
+  color:rgb(87, 90, 90);
+  font-weight: bolder;
+}
+
+.vpn-informations-card svg {
+  max-width: 30%;
+  position: relative;
+  left: 150vh;
+  bottom: 90vh;
+  z-index: 0 0 0 0;
+}
+
+.vpn-informations-card-content ol {
+  position: relative;
+  top: 60px;
+  left: 50px;
+  border-right: 2px solid rgb(255, 255, 255, 0.25);
+  margin-right: 920px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+.text-vpn-product p {
+ margin: 25px;
+ position: relative;
+ bottom: 20px;
+}
+
+.text-vpn-product {
+  border-radius: 8px;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.074);
+  border: 1px solid rgba(255, 255, 255, 0.222);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 0.7rem;
+  transition: all ease 0.3s;
+  width: 455px;
+  height: 320px;
+  position: relative;
+  left: 458px;
+  bottom: 230px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-vpn-product:hover {
+  box-shadow: 0px 0px 20px 1px #2e6adb91;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
+
+
+.proxy-informations-card {
+  background-color: green;background: linear-gradient(rgb(70, 167, 97), rgb(146, 227, 169) );
+  position: relative;
+  bottom: 140rem;
+  width: 1310px;
+  height: 500px;
+  margin-left: 20px;
+  border-radius: 15px;
+  border: 1px rgb(87, 90, 90) solid;
+  margin-bottom: 35px;
+}
+
+.proxy-informations-card-content h2, h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10px;
+  color:rgb(87, 90, 90);
+}
+
+.proxy-informations-card-content h2 {
+  color:rgb(87, 90, 90);
+  font-weight: bolder;
+}
+
+.proxy-informations-card svg {
+  max-width: 32%;
+  position: relative;
+  left: 147vh;
+  bottom: 84vh;
+  z-index: 0 0 0 0;
+}
+
+.proxy-informations-card-content ol {
+  position: relative;
+  top: 60px;
+  left: 50px;
+  border-right: 2px solid rgb(255, 255, 255, 0.25);
+  margin-right: 920px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+.text-proxy-product p {
+ margin: 25px;
+ position: relative;
+ bottom: 20px;
+}
+
+.text-proxy-product {
+  border-radius: 8px;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.074);
+  border: 1px solid rgba(255, 255, 255, 0.222);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 0.7rem;
+  transition: all ease 0.3s;
+  width: 455px;
+  height: 320px;
+  position: relative;
+  left: 458px;
+  bottom: 180px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-proxy-product:hover {
+  box-shadow: 0px 0px 20px 1px #2e6adb91;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
+
+
+.firewall-informations-card {
+  background-color: green;background: linear-gradient(rgb(70, 167, 97), rgb(146, 227, 169) );
+  position: relative;
+  bottom: 140rem;
+  width: 1310px;
+  height: 500px;
+  margin-left: 20px;
+  border-radius: 15px;
+  border: 1px rgb(87, 90, 90) solid;
+  margin-bottom: 35px;
+}
+
+.firewall-informations-card-content h2, h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10px;
+  color:rgb(87, 90, 90);
+}
+
+.firewall-informations-card-content h2 {
+  color:rgb(87, 90, 90);
+  font-weight: bolder;
+}
+
+.firewall-informations-card svg {
+  max-width: 35%;
+  position: relative;
+  left: 147vh;
+  bottom: 97vh;
+  z-index: 0 0 0 0;
+}
+
+.firewall-informations-card-content ol {
+  position: relative;
+  top: 60px;
+  left: 50px;
+  border-right: 2px solid rgb(255, 255, 255, 0.25);
+  margin-right: 920px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+.text-firewall-product p {
+ margin: 25px;
+ position: relative;
+ bottom: 20px;
+}
+
+.text-firewall-product {
+  border-radius: 8px;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.074);
+  border: 1px solid rgba(255, 255, 255, 0.222);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 0.7rem;
+  transition: all ease 0.3s;
+  width: 455px;
+  height: 320px;
+  position: relative;
+  left: 458px;
+  bottom: 230px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-firewall-product:hover {
+  box-shadow: 0px 0px 20px 1px #2e6adb91;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
+
+
+
