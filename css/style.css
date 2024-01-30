@@ -196,6 +196,16 @@ html {
   height: 5px;
 }
 
+.tools h4 {
+  font-size: 19px;
+  position: relative;
+  left: 40px;
+  top: 8px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(49, 47, 47);
+  font-weight: 200px;
+} 
+
 .second-img svg {
   max-width: 21%;
   min-width: auto;
@@ -418,6 +428,7 @@ html {
 .container-text-lgpd {
   position: relative;
   bottom: 70px;
+  padding-bottom: 250px;
 }
 
 footer {
@@ -431,7 +442,7 @@ footer {
 }
 
 .content-2 {
-  background-image: url('https://img.freepik.com/vetores-gratis/gradiente-digital-de-particulas-de-onda-de-fundo-colorido_483537-1548.jpg?w=740&t=st=1705090283~exp=1705090883~hmac=fe02f91e1f50197801e9dc31485b4369458a7781be0ae7530f46a198ea379d64');
+  
   background-repeat: no-repeat;
   background-position: 0px 150px;
   position: relative;
@@ -581,8 +592,8 @@ footer {
 
 .text-proxy-product p {
  margin: 25px;
- position: relative;
- bottom: 20px;
+ position: absolute;
+ bottom: 0px;
 }
 
 .text-proxy-product {
@@ -609,7 +620,7 @@ footer {
 
 
 .firewall-informations-card {
-  background-color: green;background: linear-gradient(rgb(70, 167, 97), rgb(146, 227, 169) );
+  background-color: green;background: linear-gradient(rgb(146, 227, 169), rgb(70, 167, 97));
   position: relative;
   bottom: 140rem;
   width: 1310px;
@@ -654,8 +665,8 @@ footer {
 
 .text-firewall-product p {
  margin: 25px;
- position: relative;
- bottom: 20px;
+ position: absolute;
+ bottom: 0px;
 }
 
 .text-firewall-product {
@@ -681,4 +692,113 @@ footer {
 }
 
 
+.card-app {
+  max-width: 700px;
+  height: 500px;
+  background-color: rgb(7 16 45);
+  background: linear-gradient(to top right, rgb(7 16 45), rgb(58 60 84));
+  background: -webkit-linear-gradient(to top right, rgb(7 16 45), rgb(58 60 84));
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid rgb(84 90 106);
+  position: relative;
+  bottom: 129rem;
+  left: 5rem;
 
+}
+
+.small-text-card-app, .title-card-app,.desc-card-app {
+  font-weight: 600;
+}
+
+.title,.desc {
+  margin: 8px 0;
+}
+
+.small-text-card-app {
+  color: #488aec;
+  font-size: 14px;
+}
+
+.title-card-app {
+  color: #fff;
+  font-size: 26px;
+  line-height: 26px;
+}
+
+.desc-card-app {
+  color: rgb(151 153 167);
+  font-size: 13px;
+}
+
+.buttons-card-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button-card-app {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 6px;
+  text-decoration: none;
+}
+
+.button-card-app:first-child {
+  box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+  background-color: #488aec;
+}
+
+.button-card-app:last-child {
+  box-shadow: 0 4px 6px -1px #0b162531, 0 2px 4px -1px #0e192b17;
+  background-color: #fff;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+}
+
+.icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.icon svg:last-child {
+  fill: #000
+}
+
+.button-text-car-app {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.button-text-card-app span:first-child {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.google span:first-child {
+  color: rgb(219 206 253);
+}
+
+.apple span:first-child {
+  color: rgb(81 87 108);
+}
+
+.google span:last-child {
+  color: #fff;
+  font-weight: 800;
+}
+
+.apple span:last-child {
+  color: #000;
+  font-weight: 800;
+}
