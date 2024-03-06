@@ -1,7 +1,6 @@
-.cliente__opinion_title {
+.cliente__opinion_title h2 {
     position: relative;
-    bottom: 134rem;
-    left: 10px;
+    bottom: 8rem;
     margin: 2px;
     z-index: 1;
     font-family: 'Poppins', serif;
@@ -12,14 +11,15 @@
 .client__opinion_sec {
     background: linear-gradient(rgb(146, 227, 169), rgb(70, 167, 97));
     width: 42rem;
-    height: 40rem;
+    height: 80rem;
     position: relative;
     left: 8px;
     bottom: 134rem;
     border-radius: 2%;
+    margin-top: 10rem;
 }
 
-.profile__photo_1 {
+.profile__photo_1, .profile__photo_2, .profile__photo_3, .profile__photo_4  {
     background-color: transparent;
     border: solid 2px black;
     border-radius: 50%;
@@ -32,7 +32,7 @@
     background-size: cover;
 }
 
-.profile__name_1 {
+.profile__name_1, .profile__name_2, .profile__name_3, .profile__name_4  {
     color: black;
     font-size: 16px;
     position: relative;
@@ -58,33 +58,15 @@
     float: right;
     cursor: pointer;
     font-size: 30px;
-    color: #666;
+    color: #e58e09;
 }
 
 .rating:not(:checked)>label:before {
     content: '★';
 }
 
-.rating>input:checked+label:hover,
-.rating>input:checked+label:hover~label,
-.rating>input:checked~label:hover,
-.rating>input:checked~label:hover~label,
-.rating>label:hover~input:checked~label {
-    color: #e58e09;
-}
 
-.rating:not(:checked)>label:hover,
-.rating:not(:checked)>label:hover~label {
-    color: #ff9e0b;
-}
-
-.rating>input:checked~label {
-    color: #ffa723;
-}
-
-
-
-.client__opinion__card_1_espelho {
+.client__opinion__card_1_espelho, .client__opinion__card_2_espelho, .client__opinion__card_3_espelho, .client__opinion__card_4_espelho{
     position: relative;
     bottom: 29px;
     height: 265px;
@@ -98,7 +80,7 @@
     transition: all ease 0.3s;
 }
 
-.client__opinion__assunt {
+.client__opinion__assunt_1, .client__opinion__assunt_2, .client__opinion__assunt_3, .client__opinion__assunt_4 {
     color: black;
     font-size: 12px;
     position: relative;
@@ -111,7 +93,7 @@
     font-family: 'Poppins', serif;
 }
 
-.client_resenh_1 {
+.client_resenh_1, .client_resenh_2, .client_resenh_3, .client_resenh_4  {
     color: black;
     font-size: 15px;
     position: relative;
@@ -121,3 +103,4 @@
     z-index: 1;
     font-family: 'Poppins', serif;
 }
+
