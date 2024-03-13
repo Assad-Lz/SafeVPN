@@ -196,6 +196,16 @@ html {
   height: 5px;
 }
 
+.tools h4 {
+  font-size: 19px;
+  position: relative;
+  left: 40px;
+  top: 8px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(49, 47, 47);
+  font-weight: 200px;
+} 
+
 .second-img svg {
   max-width: 21%;
   min-width: auto;
@@ -418,6 +428,7 @@ html {
 .container-text-lgpd {
   position: relative;
   bottom: 70px;
+  padding-bottom: 250px;
 }
 
 footer {
@@ -431,7 +442,7 @@ footer {
 }
 
 .content-2 {
-  background-image: url('https://img.freepik.com/vetores-gratis/gradiente-digital-de-particulas-de-onda-de-fundo-colorido_483537-1548.jpg?w=740&t=st=1705090283~exp=1705090883~hmac=fe02f91e1f50197801e9dc31485b4369458a7781be0ae7530f46a198ea379d64');
+  
   background-repeat: no-repeat;
   background-position: 0px 150px;
   position: relative;
@@ -581,8 +592,8 @@ footer {
 
 .text-proxy-product p {
  margin: 25px;
- position: relative;
- bottom: 20px;
+ position: absolute;
+ bottom: 0px;
 }
 
 .text-proxy-product {
@@ -609,7 +620,7 @@ footer {
 
 
 .firewall-informations-card {
-  background-color: green;background: linear-gradient(rgb(70, 167, 97), rgb(146, 227, 169) );
+  background: linear-gradient(rgb(146, 227, 169), rgb(70, 167, 97));
   position: relative;
   bottom: 140rem;
   width: 1310px;
@@ -654,8 +665,8 @@ footer {
 
 .text-firewall-product p {
  margin: 25px;
- position: relative;
- bottom: 20px;
+ position: absolute;
+ bottom: 0px;
 }
 
 .text-firewall-product {
@@ -680,7 +691,5 @@ footer {
   border: 1px solid rgba(255, 255, 255, 0.454);
 }
 
-.information-products {
-  margin-bottom: 20px;
-}
+
 
