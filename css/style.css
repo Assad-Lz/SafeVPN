@@ -321,7 +321,6 @@ html {
 .text-lgpd-section {
   background-color: rgba(82, 76, 76, 0.11);
   border: 1px solid rgba(112, 112, 112, 0.164);
-  -webkit-backdrop-filter: blur(20px);
   width: 800px;
   height: auto;
   position: relative;
@@ -692,4 +691,10 @@ footer {
 }
 
 
-
+.title__info__products {
+  position: relative;
+  bottom: 142rem;
+  font-size: 24px;
+  font-family: 'Poppins', serif;
+  left: 20rem;
+}
