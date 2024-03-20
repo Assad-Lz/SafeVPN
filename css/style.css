@@ -205,7 +205,7 @@ html {
   font-family: 'Poppins', sans-serif;
   color: rgb(49, 47, 47);
   font-weight: 200px;
-} 
+}
 
 .second-img svg {
   max-width: 21%;
@@ -317,9 +317,17 @@ html {
   border-radius: 15px;
 }
 
+.secure_icon {
+  /*Estilo aplicado para posicionar icone de usuario no textp da Lgpd*/
+  position: relative;  
+  right: 0px;
+  bottom: 12rem;
+  left: 25rem;
+}
 
 
 .text-lgpd-section {
+  /*Adiciona Estilo ao Card de Texto da LGPD*/
   background-color: rgba(82, 76, 76, 0.11);
   border: 1px solid rgba(112, 112, 112, 0.164);
   width: 800px;
@@ -330,7 +338,6 @@ html {
   border-radius: 15px;
   box-shadow: 0px 0px 20px 1px rgb(146, 227, 169);
   border: 1px solid rgba(255, 255, 255, 0.454);
-
 }
 
 .text-lgpd-section-content {
@@ -443,7 +450,7 @@ footer {
 }
 
 .content-2 {
-  
+
   background-repeat: no-repeat;
   background-position: 0px 150px;
   position: relative;
@@ -471,12 +478,15 @@ footer {
 }
 
 .social-media-content-box-container {
+  /*Controla a Posição do Container do Card das Redes Sociais*/
   position: relative;
   left: 1093px;
 }
 
 .vpn-informations-card {
-  background-color: green;background: linear-gradient(rgb(146, 227, 169), rgb(70, 167, 97));position: relative;
+  background-color: green;
+  background: linear-gradient(rgb(146, 227, 169), rgb(70, 167, 97));
+  position: relative;
   bottom: 140rem;
   width: 1310px;
   height: 500px;
@@ -486,17 +496,18 @@ footer {
   margin-bottom: 35px;
 }
 
-.vpn-informations-card-content h2, h3 {
+.vpn-informations-card-content h2,
+h3 {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
   margin-top: 10px;
-  color:rgb(87, 90, 90);
+  color: rgb(87, 90, 90);
 }
 
 .vpn-informations-card-content h2 {
-  color:rgb(87, 90, 90);
+  color: rgb(87, 90, 90);
   font-weight: bolder;
 }
 
@@ -519,9 +530,9 @@ footer {
 }
 
 .text-vpn-product p {
- margin: 25px;
- position: relative;
- bottom: 20px;
+  margin: 25px;
+  position: relative;
+  bottom: 20px;
 }
 
 .text-vpn-product {
@@ -548,7 +559,8 @@ footer {
 
 
 .proxy-informations-card {
-  background-color: green;background: linear-gradient(rgb(70, 167, 97), rgb(146, 227, 169) );
+  background-color: green;
+  background: linear-gradient(rgb(70, 167, 97), rgb(146, 227, 169));
   position: relative;
   bottom: 140rem;
   width: 1310px;
@@ -559,17 +571,18 @@ footer {
   margin-bottom: 35px;
 }
 
-.proxy-informations-card-content h2, h3 {
+.proxy-informations-card-content h2,
+h3 {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
   margin-top: 10px;
-  color:rgb(87, 90, 90);
+  color: rgb(87, 90, 90);
 }
 
 .proxy-informations-card-content h2 {
-  color:rgb(87, 90, 90);
+  color: rgb(87, 90, 90);
   font-weight: bolder;
 }
 
@@ -592,9 +605,9 @@ footer {
 }
 
 .text-proxy-product p {
- margin: 25px;
- position: absolute;
- bottom: 0px;
+  margin: 25px;
+  position: absolute;
+  bottom: 0px;
 }
 
 .text-proxy-product {
@@ -632,17 +645,18 @@ footer {
   margin-bottom: 35px;
 }
 
-.firewall-informations-card-content h2, h3 {
+.firewall-informations-card-content h2,
+h3 {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
   margin-top: 10px;
-  color:rgb(87, 90, 90);
+  color: rgb(87, 90, 90);
 }
 
 .firewall-informations-card-content h2 {
-  color:rgb(87, 90, 90);
+  color: rgb(87, 90, 90);
   font-weight: bolder;
 }
 
@@ -665,9 +679,9 @@ footer {
 }
 
 .text-firewall-product p {
- margin: 25px;
- position: absolute;
- bottom: 0px;
+  margin: 25px;
+  position: absolute;
+  bottom: 0px;
 }
 
 .text-firewall-product {

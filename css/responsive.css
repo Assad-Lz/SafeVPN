@@ -1,0 +1,62 @@
+/* Media query para telas pequenas (móveis) */
+@media screen and (max-width: 600px) {}
+
+/* Media query para telas médias (tablets) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Aqui você pode adicionar estilos específicos para tablets se necessário */
+}
+
+/* Media query para telas grandes (desktops) */
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
+    .informations-2 {
+        position: relative;
+        left: 41rem;
+        bottom: 225px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-left: 2px solid rgb(255, 255, 255, 0.25);
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+
+    .text-lgpd-section {
+        /*Adiciona Estilo ao Card de Texto da LGPD*/
+        background-color: rgba(82, 76, 76, 0.11);
+        border: 1px solid rgba(112, 112, 112, 0.164);
+        width: 120vh;
+        height: auto;
+        position: relative;
+        left: 18rem;
+        bottom: 200px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 20px 1px rgb(146, 227, 169);
+        border: 1px solid rgba(255, 255, 255, 0.454);
+    }
+
+    .social-media-content-box-container {
+        /*Controla a Posição do Car das Redes Sociais*/
+        position: sticky;
+        display: flex;
+        justify-content: right;
+        padding-right: 3.1rem;
+        height: auto;
+        size: auto;
+    }
+     
+    /*Controla o Estilo do Card das Redes Sociais*/
+    .social-media-content-box {
+        height: 220px;
+        width: 17%;
+        position: relative;
+        top: 63px;
+        left: 30px;
+        border-radius: 15px;
+    }
+
+    .secure_icon {
+        /*Estilo aplicado para posicionar icone de usuario no textp da Lgpd*/
+        position: relative;  
+        right: 0px;
+        bottom: 15.8rem;
+        left: 60rem;
+    }
+}
